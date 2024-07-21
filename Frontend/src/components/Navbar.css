@@ -1,0 +1,48 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+.navbar__title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar__links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar__item {
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar__link:hover {
+    color: #ff6347; /* Tomato color */
+}
+
+
